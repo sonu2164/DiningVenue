@@ -20,6 +20,10 @@ To access this private repository, you must be added as a contributor by the rep
    ```bash
    npm install
    ```
+   If getting conflict error run : 
+   ```bash 
+   npm install --legacy-peer-deps
+   ```
 
 3. Create a `.env` file based on the `.env.example` file and fill in the required environment variables.
 
