@@ -1,0 +1,26 @@
+/* CustomScrollbar.css */
+.content {
+    height: 100%;
+    /* Ensure the content fills the available height */
+    overflow-y: auto;
+    /* Enable scrolling if needed */
+}
+
+.track-vertical {
+    width: 6px;
+    /* Adjust the width as needed */
+    background-color: transparent;
+    /* Make the track background transparent */
+}
+
+.thumb-vertical {
+    background-color: red;
+    /* Set the scrollbar color to red */
+    border-radius: ;
+    /* Round the top and bottom */
+}
+
+/* Handle hover effect if desired */
+.thumb-vertical:hover {
+    background-color: darkred;
+}

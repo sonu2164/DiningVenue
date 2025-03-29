@@ -1,0 +1,29 @@
+
+.category-scrollbar {
+    display: flex;
+    gap: 10px;
+    overflow-x: auto;
+    scroll-snap-type: inline mandatory;
+    padding-block-end: 20px;
+  }
+  
+  .category-scrollbar::-webkit-scrollbar { height: 5px
+    ; }
+
+.category-scrollbar::-webkit-scrollbar-button { width: calc(20% - 40px); }
+
+
+
+.category-scrollbar::-webkit-scrollbar-track {
+outline: 2px solid rgb(91, 3, 3);
+border-radius: 50px;
+background:rgb(255, 255, 255);
+
+}
+
+.category-scrollbar::-webkit-scrollbar-thumb {
+border: 1px solid rgb(91, 3, 3);
+border-radius: 50px;
+background-color:  rgb(91, 3, 3);
+
+}

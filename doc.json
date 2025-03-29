@@ -1,0 +1,812 @@
+[
+    {
+      "image": "https://firebasestorage.googleapis.com/v0/b/briyaniapp-79bce.appspot.com/o/images%2Fit0lqp7z96o.jpg?alt=media&token=4182aef4-f2b5-4547-b70a-6ff37fdd0c6b.jpg",
+      "name": "Sweet Corn Veg Soup",
+      "description": "Creamy Corn Chop Vegetable Sweets & Salt Tast",
+      "category": "Soup",
+      "basePrice": 99
+    },
+    {
+      "image": "https://firebasestorage.googleapis.com/v0/b/briyaniapp-79bce.appspot.com/o/images%2Fit0lqp7z96o.jpg?alt=media&token=4182aef4-f2b5-4547-b70a-6ff37fdd0c6b.jpg",
+      "name": "Hot & Sour Soup",
+      "description": "Juling veg ormushroom Hot & Spicy Soup",
+      "category": "Soup",
+      "basePrice": 110
+    },
+    {
+      "image": "https://firebasestorage.googleapis.com/v0/b/briyaniapp-79bce.appspot.com/o/images%2Fit0lqp7z96o.jpg?alt=media&token=4182aef4-f2b5-4547-b70a-6ff37fdd0c6b.jpg",
+      "name": "Veg Manchow Soup",
+      "description": "Very popular soup from China",
+      "category": "Soup",
+      "basePrice": 119
+    },
+    {
+      "image": "https://firebasestorage.googleapis.com/v0/b/briyaniapp-79bce.appspot.com/o/images%2Fit0lqp7z96o.jpg?alt=media&token=4182aef4-f2b5-4547-b70a-6ff37fdd0c6b.jpg",
+      "name": "Veg Lemon Coriander Soup",
+      "description": "This is coriander flowers soup",
+      "category": "Soup",
+      "basePrice": 119
+    },
+    {
+      "image": "https://firebasestorage.googleapis.com/v0/b/briyaniapp-79bce.appspot.com/o/images%2Fit0lqp7z96o.jpg?alt=media&token=4182aef4-f2b5-4547-b70a-6ff37fdd0c6b.jpg",
+      "name": "Cream of Mushroom Soup",
+      "description": "Creamy soup chop mushroom",
+      "category": "Soup",
+      "basePrice": 129
+    },
+    {
+      "image": "https://firebasestorage.googleapis.com/v0/b/briyaniapp-79bce.appspot.com/o/images%2Fit0lqp7z96o.jpg?alt=media&token=4182aef4-f2b5-4547-b70a-6ff37fdd0c6b.jpg",
+      "name": "Cream of Tomato Soup",
+      "description": "Fresh Tomato puree or cream",
+      "category": "Soup",
+      "basePrice": 129
+    },
+    {
+      "image": "https://firebasestorage.googleapis.com/v0/b/briyaniapp-79bce.appspot.com/o/images%2Fit0lqp7z96o.jpg?alt=media&token=4182aef4-f2b5-4547-b70a-6ff37fdd0c6b.jpg",
+      "name": "Bland Garlic Spinach Soup",
+      "description": "Fresh spinach or garlic thing soup",
+      "category": "Soup",
+      "basePrice": 69
+    },
+    {
+      "image": "https://firebasestorage.googleapis.com/v0/b/briyaniapp-79bce.appspot.com/o/images%2Fit0lqp7z96o.jpg?alt=media&token=4182aef4-f2b5-4547-b70a-6ff37fdd0c6b.jpg",
+      "name": "Prawns Tum Yam Soup",
+      "description": "Prawns Clear Spicy Soup From Thailand",
+      "category": "Non-Veg Soup",
+      "basePrice": 175
+    },
+    {
+      "image": "https://firebasestorage.googleapis.com/v0/b/briyaniapp-79bce.appspot.com/o/images%2Fit0lqp7z96o.jpg?alt=media&token=4182aef4-f2b5-4547-b70a-6ff37fdd0c6b.jpg",
+      "name": "Chicken Noodles Soup",
+      "description": "Baited Noodles or Chicken Ting Soup",
+      "category": "Non-Veg Soup",
+      "basePrice": 169
+    },
+    {
+      "image": "https://firebasestorage.googleapis.com/v0/b/briyaniapp-79bce.appspot.com/o/images%2Fit0lqp7z96o.jpg?alt=media&token=4182aef4-f2b5-4547-b70a-6ff37fdd0c6b.jpg",
+      "name": "Chicken Man Chao Soup",
+      "description": "Very Popular Chicken Soup From China",
+      "category": "Non-Veg Soup",
+      "basePrice": 110
+    },
+    {
+      "image": "https://firebasestorage.googleapis.com/v0/b/briyaniapp-79bce.appspot.com/o/images%2Fit0lqp7z96o.jpg?alt=media&token=4182aef4-f2b5-4547-b70a-6ff37fdd0c6b.jpg",
+      "name": "Hot & Sour Chicken Soup",
+      "description": "Spicy or Sar Soup But Very Good Test",
+      "category": "Non-Veg Soup",
+      "basePrice": 110
+    },
+    {
+      "image": "https://firebasestorage.googleapis.com/v0/b/briyaniapp-79bce.appspot.com/o/images%2Fit0lqp7z96o.jpg?alt=media&token=4182aef4-f2b5-4547-b70a-6ff37fdd0c6b.jpg",
+      "name": "Tomato Dhaniya Ka Surba",
+      "description": "Fresh Tomato or Coriender Flover Thing Desti Style",
+      "category": "Indian Surba",
+      "basePrice": 85
+    },
+    {
+      "image": "https://firebasestorage.googleapis.com/v0/b/briyaniapp-79bce.appspot.com/o/images%2Fit0lqp7z96o.jpg?alt=media&token=4182aef4-f2b5-4547-b70a-6ff37fdd0c6b.jpg",
+      "name": "Palak Lasuni Surba",
+      "description": "Spinech Past Garlic Flovered Surba Desti Style",
+      "category": "Indian Surba",
+      "basePrice": 69
+    },
+    {
+      "image": "https://firebasestorage.googleapis.com/v0/b/briyaniapp-79bce.appspot.com/o/images%2Fit0lqp7z96o.jpg?alt=media&token=4182aef4-f2b5-4547-b70a-6ff37fdd0c6b.jpg",
+      "name": "Yellow Dal Ka Surba",
+      "description": "This is Letal Soup Indian Style",
+      "category": "Indian Surba",
+      "basePrice": 85
+    },
+    {
+      "image": "https://firebasestorage.googleapis.com/v0/b/briyaniapp-79bce.appspot.com/o/images%2Fit0lqp7z96o.jpg?alt=media&token=4182aef4-f2b5-4547-b70a-6ff37fdd0c6b.jpg",
+      "name": "Green Garden Salad",
+      "description": "Fresh Tomato Corrote Beetroot Onion Cucumber",
+      "category": "Salad",
+      "basePrice": 75
+    },
+      {
+      "image": "https://firebasestorage.googleapis.com/v0/b/briyaniapp-79bce.appspot.com/o/images%2Fit0lqp7z96o.jpg?alt=media&token=4182aef4-f2b5-4547-b70a-6ff37fdd0c6b.jpg",
+      "name": "Russian Salad Veg",
+      "description": "Mix Vegetable Paineple Apple Cream or Mainuse",
+      "category": "Salad",
+      "basePrice": 129
+    },
+    {
+      "image": "https://firebasestorage.googleapis.com/v0/b/briyaniapp-79bce.appspot.com/o/images%2Fit0lqp7z96o.jpg?alt=media&token=4182aef4-f2b5-4547-b70a-6ff37fdd0c6b.jpg",
+      "name": "Fita Cheese or Carrot Salad",
+      "description": "Fresh Carrots or Fita Cheese Olive Oil Paper",
+      "category": "Salad",
+      "basePrice": 199
+    },
+    {
+      "image": "https://firebasestorage.googleapis.com/v0/b/briyaniapp-79bce.appspot.com/o/images%2Fit0lqp7z96o.jpg?alt=media&token=4182aef4-f2b5-4547-b70a-6ff37fdd0c6b.jpg",
+      "name": "Caesar Salad",
+      "description": "Ice Burg Lethtice Bread Curcam Chese Olive Oil Black Paper",
+      "category": "Salad",
+      "basePrice": 149
+    },
+    {
+      "image": "https://firebasestorage.googleapis.com/v0/b/briyaniapp-79bce.appspot.com/o/images%2Fit0lqp7z96o.jpg?alt=media&token=4182aef4-f2b5-4547-b70a-6ff37fdd0c6b.jpg",
+      "name": "Masala Papad",
+      "description": "2 Pcs",
+      "category": "Small Bets (Chakhna)",
+      "basePrice": 199
+    },
+      {
+      "image": "https://firebasestorage.googleapis.com/v0/b/briyaniapp-79bce.appspot.com/o/images%2Fit0lqp7z96o.jpg?alt=media&token=4182aef4-f2b5-4547-b70a-6ff37fdd0c6b.jpg",
+      "name": "Cashewnuts fry",
+      "description": "100 gm",
+      "category": "Small Bets (Chakhna)",
+      "basePrice": 299
+    },
+    {
+      "image": "https://firebasestorage.googleapis.com/v0/b/briyaniapp-79bce.appspot.com/o/images%2Fit0lqp7z96o.jpg?alt=media&token=4182aef4-f2b5-4547-b70a-6ff37fdd0c6b.jpg",
+      "name": "Roasted papad",
+      "description": "2 Pcs",
+      "category": "Small Bets (Chakhna)",
+      "basePrice": 49
+    },
+    {
+      "image": "https://firebasestorage.googleapis.com/v0/b/briyaniapp-79bce.appspot.com/o/images%2Fit0lqp7z96o.jpg?alt=media&token=4182aef4-f2b5-4547-b70a-6ff37fdd0c6b.jpg",
+      "name": "Masala Peanuts",
+      "description": "150 gm",
+      "category": "Small Bets (Chakhna)",
+      "basePrice": 119
+    },
+    {
+      "image": "https://firebasestorage.googleapis.com/v0/b/briyaniapp-79bce.appspot.com/o/images%2Fit0lqp7z96o.jpg?alt=media&token=4182aef4-f2b5-4547-b70a-6ff37fdd0c6b.jpg",
+      "name": "Paneer ka Pakoda",
+      "description": "8 Pcs",
+      "category": "Small Bets (Chakhna)",
+      "basePrice": 199
+    },
+    {
+      "image": "https://firebasestorage.googleapis.com/v0/b/briyaniapp-79bce.appspot.com/o/images%2Fit0lqp7z96o.jpg?alt=media&token=4182aef4-f2b5-4547-b70a-6ff37fdd0c6b.jpg",
+      "name": "Onion Pakoda",
+      "description": "8 Pcs",
+      "category": "Small Bets (Chakhna)",
+      "basePrice": 129
+    },
+    {
+      "image": "https://firebasestorage.googleapis.com/v0/b/briyaniapp-79bce.appspot.com/o/images%2Fit0lqp7z96o.jpg?alt=media&token=4182aef4-f2b5-4547-b70a-6ff37fdd0c6b.jpg",
+      "name": "Mix Veg Pakoda",
+      "description": "8 Pcs",
+      "category": "Small Bets (Chakhna)",
+      "basePrice": 99
+    },
+    {
+      "image": "https://firebasestorage.googleapis.com/v0/b/briyaniapp-79bce.appspot.com/o/images%2Fit0lqp7z96o.jpg?alt=media&token=4182aef4-f2b5-4547-b70a-6ff37fdd0c6b.jpg",
+      "name": "Chese pakoda",
+      "description": "8 Pcs",
+      "category": "Small Bets (Chakhna)",
+      "basePrice": 299
+    },
+    {
+      "image": "https://firebasestorage.googleapis.com/v0/b/briyaniapp-79bce.appspot.com/o/images%2Fit0lqp7z96o.jpg?alt=media&token=4182aef4-f2b5-4547-b70a-6ff37fdd0c6b.jpg",
+      "name": "French Fries",
+      "description": DDD,
+      "category": "Small Bets (Chakhna)",
+      "basePrice": 129
+    },
+    {
+      "image": "https://firebasestorage.googleapis.com/v0/b/briyaniapp-79bce.appspot.com/o/images%2Fit0lqp7z96o.jpg?alt=media&token=4182aef4-f2b5-4547-b70a-6ff37fdd0c6b.jpg",
+      "name": "Peri-Peri French fries",
+      "description": DDD,
+      "category": "Small Bets (Chakhna)",
+      "basePrice": 99
+    },
+    {
+      "image": "https://firebasestorage.googleapis.com/v0/b/briyaniapp-79bce.appspot.com/o/images%2Fit0lqp7z96o.jpg?alt=media&token=4182aef4-f2b5-4547-b70a-6ff37fdd0c6b.jpg",
+      "name": "Kajun spicy friench fries",
+      "description": DDD,
+      "category": "Small Bets (Chakhna)",
+      "basePrice": 119
+    },
+    {
+      "image": "https://firebasestorage.googleapis.com/v0/b/briyaniapp-79bce.appspot.com/o/images%2Fit0lqp7z96o.jpg?alt=media&token=4182aef4-f2b5-4547-b70a-6ff37fdd0c6b.jpg",
+      "name": "Veg Margherita Pizza",
+      "description": "Pizza",
+      "category": "Pizza Veg",
+      "basePrice": 249
+    },
+    {
+      "image": "https://firebasestorage.googleapis.com/v0/b/briyaniapp-79bce.appspot.com/o/images%2Fit0lqp7z96o.jpg?alt=media&token=4182aef4-f2b5-4547-b70a-6ff37fdd0c6b.jpg",
+      "name": "Corn Chilly Pizza",
+      "description": "Pizza",
+      "category": "Pizza Veg",
+      "basePrice": 259
+    },
+    {
+      "image": "https://firebasestorage.googleapis.com/v0/b/briyaniapp-79bce.appspot.com/o/images%2Fit0lqp7z96o.jpg?alt=media&token=4182aef4-f2b5-4547-b70a-6ff37fdd0c6b.jpg",
+      "name": "Pam Pom Pizza",
+      "description": "Pizza",
+      "category": "Pizza Veg",
+      "basePrice": 269
+    },
+    {
+      "image": "https://firebasestorage.googleapis.com/v0/b/briyaniapp-79bce.appspot.com/o/images%2Fit0lqp7z96o.jpg?alt=media&token=4182aef4-f2b5-4547-b70a-6ff37fdd0c6b.jpg",
+      "name": "Chilly Paneer Tikka Pizza",
+      "description": "Pizza",
+      "category": "Pizza Veg",
+      "basePrice": 275
+    },
+    {
+      "image": "https://firebasestorage.googleapis.com/v0/b/briyaniapp-79bce.appspot.com/o/images%2Fit0lqp7z96o.jpg?alt=media&token=4182aef4-f2b5-4547-b70a-6ff37fdd0c6b.jpg",
+      "name": "Chilly Paneer Pizza",
+      "description": "Pizza",
+      "category": "Pizza Veg",
+      "basePrice": 285
+    },
+    {
+      "image": "https://firebasestorage.googleapis.com/v0/b/briyaniapp-79bce.appspot.com/o/images%2Fit0lqp7z96o.jpg?alt=media&token=4182aef4-f2b5-4547-b70a-6ff37fdd0c6b.jpg",
+      "name": "Veg Jalapeno Pizza",
+      "description": "Pizza",
+      "category": "Pizza Veg",
+      "basePrice": 275
+    },
+      {
+      "image": "https://firebasestorage.googleapis.com/v0/b/briyaniapp-79bce.appspot.com/o/images%2Fit0lqp7z96o.jpg?alt=media&token=4182aef4-f2b5-4547-b70a-6ff37fdd0c6b.jpg",
+      "name": "Grilled Paneer Pizza",
+      "description": "Pizza",
+      "category": "Pizza Veg",
+      "basePrice": 299
+    },
+    {
+      "image": "https://firebasestorage.googleapis.com/v0/b/briyaniapp-79bce.appspot.com/o/images%2Fit0lqp7z96o.jpg?alt=media&token=4182aef4-f2b5-4547-b70a-6ff37fdd0c6b.jpg",
+      "name": "Spicy Chilly Basi Chicken Pizza",
+      "description": "Pizza",
+      "category": "Pizza Non-Veg",
+      "basePrice": 305
+    },
+    {
+      "image": "https://firebasestorage.googleapis.com/v0/b/briyaniapp-79bce.appspot.com/o/images%2Fit0lqp7z96o.jpg?alt=media&token=4182aef4-f2b5-4547-b70a-6ff37fdd0c6b.jpg",
+      "name": "Chicken Tikka Pizza",
+      "description": "Pizza",
+      "category": "Pizza Non-Veg",
+      "basePrice": 299
+    },
+    {
+      "image": "https://firebasestorage.googleapis.com/v0/b/briyaniapp-79bce.appspot.com/o/images%2Fit0lqp7z96o.jpg?alt=media&token=4182aef4-f2b5-4547-b70a-6ff37fdd0c6b.jpg",
+      "name": "Chicken Margherita Pizza",
+      "description": "Pizza",
+      "category": "Pizza Non-Veg",
+      "basePrice": 265
+    },
+    {
+      "image": "https://firebasestorage.googleapis.com/v0/b/briyaniapp-79bce.appspot.com/o/images%2Fit0lqp7z96o.jpg?alt=media&token=4182aef4-f2b5-4547-b70a-6ff37fdd0c6b.jpg",
+      "name": "Butter Chicken Pizza",
+      "description": "Pizza",
+      "category": "Pizza Non-Veg",
+      "basePrice": 265
+    },
+    {
+      "image": "https://firebasestorage.googleapis.com/v0/b/briyaniapp-79bce.appspot.com/o/images%2Fit0lqp7z96o.jpg?alt=media&token=4182aef4-f2b5-4547-b70a-6ff37fdd0c6b.jpg",
+      "name": "Roasted Chicken Pizza",
+      "description": "Pizza",
+      "category": "Pizza Non-Veg",
+      "basePrice": 275
+    },
+    {
+      "image": "https://firebasestorage.googleapis.com/v0/b/briyaniapp-79bce.appspot.com/o/images%2Fit0lqp7z96o.jpg?alt=media&token=4182aef4-f2b5-4547-b70a-6ff37fdd0c6b.jpg",
+      "name": "Veg Burger with French Fries",
+      "description": DDD,
+      "category": "Burger & Sandwich Veg",
+      "basePrice": 99
+    },
+    {
+      "image": "https://firebasestorage.googleapis.com/v0/b/briyaniapp-79bce.appspot.com/o/images%2Fit0lqp7z96o.jpg?alt=media&token=4182aef4-f2b5-4547-b70a-6ff37fdd0c6b.jpg",
+      "name": "Cheese Chilly Burger with French Fries",
+      "description": DDD,
+      "category": "Burger & Sandwich Veg",
+      "basePrice": 125
+    },
+    {
+      "image": "https://firebasestorage.googleapis.com/v0/b/briyaniapp-79bce.appspot.com/o/images%2Fit0lqp7z96o.jpg?alt=media&token=4182aef4-f2b5-4547-b70a-6ff37fdd0c6b.jpg",
+      "name": "Grilled Paneer Burger with French Fries",
+      "description": DDD,
+      "category": "Burger & Sandwich Veg",
+      "basePrice": 125
+    },
+    {
+      "image": "https://firebasestorage.googleapis.com/v0/b/briyaniapp-79bce.appspot.com/o/images%2Fit0lqp7z96o.jpg?alt=media&token=4182aef4-f2b5-4547-b70a-6ff37fdd0c6b.jpg",
+      "name": "Corn Chilly Cheese Burger with French Fries",
+      "description": DDD,
+      "category": "Burger & Sandwich Veg",
+      "basePrice": 129
+    },
+    {
+      "image": "https://firebasestorage.googleapis.com/v0/b/briyaniapp-79bce.appspot.com/o/images%2Fit0lqp7z96o.jpg?alt=media&token=4182aef4-f2b5-4547-b70a-6ff37fdd0c6b.jpg",
+      "name": "Paneer Tikka Burger with French Fries",
+      "description": DDD,
+      "category": "Burger & Sandwich Veg",
+      "basePrice": 129
+    },
+    {
+      "image": "https://firebasestorage.googleapis.com/v0/b/briyaniapp-79bce.appspot.com/o/images%2Fit0lqp7z96o.jpg?alt=media&token=4182aef4-f2b5-4547-b70a-6ff37fdd0c6b.jpg",
+      "name": "Chicken Tikka Burger with French Fries",
+      "description": DDD,
+      "category": "Burger & Sandwich Veg",
+      "basePrice": 149
+    },
+    {
+      "image": "https://firebasestorage.googleapis.com/v0/b/briyaniapp-79bce.appspot.com/o/images%2Fit0lqp7z96o.jpg?alt=media&token=4182aef4-f2b5-4547-b70a-6ff37fdd0c6b.jpg",
+      "name": "Grilled Paneer Sandwich with French Fries",
+      "description": DDD,
+      "category": "Burger & Sandwich Veg",
+      "basePrice": 139
+    },
+    {
+      "image": "https://firebasestorage.googleapis.com/v0/b/briyaniapp-79bce.appspot.com/o/images%2Fit0lqp7z96o.jpg?alt=media&token=4182aef4-f2b5-4547-b70a-6ff37fdd0c6b.jpg",
+      "name": "Vegetable Sandwich with French Fries",
+      "description": DDD,
+      "category": "Burger & Sandwich Veg",
+      "basePrice": 159
+    },
+     {
+      "image": "https://firebasestorage.googleapis.com/v0/b/briyaniapp-79bce.appspot.com/o/images%2Fit0lqp7z96o.jpg?alt=media&token=4182aef4-f2b5-4547-b70a-6ff37fdd0c6b.jpg",
+      "name": "Grilled Chicken Sandwich with French Fries",
+      "description": DDD,
+      "category": "Burger & Sandwich Veg",
+      "basePrice": 129
+    },
+     {
+      "image": "https://firebasestorage.googleapis.com/v0/b/briyaniapp-79bce.appspot.com/o/images%2Fit0lqp7z96o.jpg?alt=media&token=4182aef4-f2b5-4547-b70a-6ff37fdd0c6b.jpg",
+      "name": "Chicken Tikka Cheese Roll",
+      "description": DDD,
+      "category": "Rolls",
+      "basePrice": 149
+    },
+     {
+      "image": "https://firebasestorage.googleapis.com/v0/b/briyaniapp-79bce.appspot.com/o/images%2Fit0lqp7z96o.jpg?alt=media&token=4182aef4-f2b5-4547-b70a-6ff37fdd0c6b.jpg",
+      "name": "Spicy Chilly Chicken Roll",
+      "description": DDD,
+      "category": "Rolls",
+      "basePrice": 159
+    },
+    {
+      "image": "https://firebasestorage.googleapis.com/v0/b/briyaniapp-79bce.appspot.com/o/images%2Fit0lqp7z96o.jpg?alt=media&token=4182aef4-f2b5-4547-b70a-6ff37fdd0c6b.jpg",
+      "name": "Roasted Chicken & Green Paper Roll",
+      "description": DDD,
+      "category": "Rolls",
+      "basePrice": 169
+    },
+    {
+      "image": "https://firebasestorage.googleapis.com/v0/b/briyaniapp-79bce.appspot.com/o/images%2Fit0lqp7z96o.jpg?alt=media&token=4182aef4-f2b5-4547-b70a-6ff37fdd0c6b.jpg",
+      "name": "Vegetable or Mushroom Roll",
+      "description": DDD,
+      "category": "Rolls",
+      "basePrice": 99
+    },
+    {
+      "image": "https://firebasestorage.googleapis.com/v0/b/briyaniapp-79bce.appspot.com/o/images%2Fit0lqp7z96o.jpg?alt=media&token=4182aef4-f2b5-4547-b70a-6ff37fdd0c6b.jpg",
+      "name": "Paneer Tikka Red Paper Roll",
+      "description": DDD,
+      "category": "Rolls",
+      "basePrice": 129
+    },
+    {
+      "image": "https://firebasestorage.googleapis.com/v0/b/briyaniapp-79bce.appspot.com/o/images%2Fit0lqp7z96o.jpg?alt=media&token=4182aef4-f2b5-4547-b70a-6ff37fdd0c6b.jpg",
+      "name": "Vegetable Spring Roll",
+      "description": DDD,
+      "category": "Rolls",
+      "basePrice": 139
+    },
+    {
+      "image": "https://firebasestorage.googleapis.com/v0/b/briyaniapp-79bce.appspot.com/o/images%2Fit0lqp7z96o.jpg?alt=media&token=4182aef4-f2b5-4547-b70a-6ff37fdd0c6b.jpg",
+      "name": "Vegetable Steam Momo",
+      "description": "8pcs",
+      "category": "Momos Veg",
+      "basePrice": 149
+    },
+    {
+      "image": "https://firebasestorage.googleapis.com/v0/b/briyaniapp-79bce.appspot.com/o/images%2Fit0lqp7z96o.jpg?alt=media&token=4182aef4-f2b5-4547-b70a-6ff37fdd0c6b.jpg",
+      "name": "Vegetable Fried Momo",
+      "description": "8pcs",
+      "category": "Momos Veg",
+      "basePrice": 149
+    },
+    {
+      "image": "https://firebasestorage.googleapis.com/v0/b/briyaniapp-79bce.appspot.com/o/images%2Fit0lqp7z96o.jpg?alt=media&token=4182aef4-f2b5-4547-b70a-6ff37fdd0c6b.jpg",
+      "name": "Vegetable Chilly Momo",
+      "description": "8pcs",
+      "category": "Momos Veg",
+      "basePrice": 155
+    },
+    {
+      "image": "https://firebasestorage.googleapis.com/v0/b/briyaniapp-79bce.appspot.com/o/images%2Fit0lqp7z96o.jpg?alt=media&token=4182aef4-f2b5-4547-b70a-6ff37fdd0c6b.jpg",
+      "name": "Vegetable Curcure Momo",
+      "description": "8pcs",
+      "category": "Momos Veg",
+      "basePrice": 165
+    },
+    {
+      "image": "https://firebasestorage.googleapis.com/v0/b/briyaniapp-79bce.appspot.com/o/images%2Fit0lqp7z96o.jpg?alt=media&token=4182aef4-f2b5-4547-b70a-6ff37fdd0c6b.jpg",
+      "name": "Paneer Steam Momo",
+      "description": "8pcs",
+      "category": "Momos Veg",
+      "basePrice": 175
+    },
+    {
+      "image": "https://firebasestorage.googleapis.com/v0/b/briyaniapp-79bce.appspot.com/o/images%2Fit0lqp7z96o.jpg?alt=media&token=4182aef4-f2b5-4547-b70a-6ff37fdd0c6b.jpg",
+      "name": "Paneer Fried Momo",
+      "description": "8pcs",
+      "category": "Momos Veg",
+      "basePrice": 175
+    },
+    {
+      "image": "https://firebasestorage.googleapis.com/v0/b/briyaniapp-79bce.appspot.com/o/images%2Fit0lqp7z96o.jpg?alt=media&token=4182aef4-f2b5-4547-b70a-6ff37fdd0c6b.jpg",
+      "name": "Chicken Steam Momo",
+      "description": DDD,
+      "category": "Momos Non-Veg",
+      "basePrice": 175
+    },
+     {
+      "image": "https://firebasestorage.googleapis.com/v0/b/briyaniapp-79bce.appspot.com/o/images%2Fit0lqp7z96o.jpg?alt=media&token=4182aef4-f2b5-4547-b70a-6ff37fdd0c6b.jpg",
+      "name": "Chicken Fried Momo",
+      "description": DDD,
+      "category": "Momos Non-Veg",
+      "basePrice": 179
+    },
+     {
+      "image": "https://firebasestorage.googleapis.com/v0/b/briyaniapp-79bce.appspot.com/o/images%2Fit0lqp7z96o.jpg?alt=media&token=4182aef4-f2b5-4547-b70a-6ff37fdd0c6b.jpg",
+      "name": "Chicken Schezwan Momo",
+      "description": DDD,
+      "category": "Momos Non-Veg",
+      "basePrice": 185
+    },
+    {
+      "image": "https://firebasestorage.googleapis.com/v0/b/briyaniapp-79bce.appspot.com/o/images%2Fit0lqp7z96o.jpg?alt=media&token=4182aef4-f2b5-4547-b70a-6ff37fdd0c6b.jpg",
+      "name": "Chicken Curcure Momo",
+      "description": DDD,
+      "category": "Momos Non-Veg",
+      "basePrice": 199
+    },
+     {
+      "image": "https://firebasestorage.googleapis.com/v0/b/briyaniapp-79bce.appspot.com/o/images%2Fit0lqp7z96o.jpg?alt=media&token=4182aef4-f2b5-4547-b70a-6ff37fdd0c6b.jpg",
+      "name": "Grilled Paneer Sizzler",
+      "description": DDD,
+      "category": "Sizzlers",
+      "basePrice": 385
+    },
+     {
+      "image": "https://firebasestorage.googleapis.com/v0/b/briyaniapp-79bce.appspot.com/o/images%2Fit0lqp7z96o.jpg?alt=media&token=4182aef4-f2b5-4547-b70a-6ff37fdd0c6b.jpg",
+      "name": "Paneer Tikka Sizzler",
+      "description": DDD,
+      "category": "Sizzlers",
+      "basePrice": 379
+    },
+    {
+      "image": "https://firebasestorage.googleapis.com/v0/b/briyaniapp-79bce.appspot.com/o/images%2Fit0lqp7z96o.jpg?alt=media&token=4182aef4-f2b5-4547-b70a-6ff37fdd0c6b.jpg",
+      "name": "Paneer Chilly Sizzler",
+      "description": DDD,
+      "category": "Sizzlers",
+      "basePrice": 389
+    },
+    {
+      "image": "https://firebasestorage.googleapis.com/v0/b/briyaniapp-79bce.appspot.com/o/images%2Fit0lqp7z96o.jpg?alt=media&token=4182aef4-f2b5-4547-b70a-6ff37fdd0c6b.jpg",
+      "name": "Paneer B.B.Q. Sizzler",
+      "description": DDD,
+      "category": "Sizzlers",
+      "basePrice": 399
+    },
+    {
+      "image": "https://firebasestorage.googleapis.com/v0/b/briyaniapp-79bce.appspot.com/o/images%2Fit0lqp7z96o.jpg?alt=media&token=4182aef4-f2b5-4547-b70a-6ff37fdd0c6b.jpg",
+      "name": "Tanddori Chicken Sizzler",
+      "description": DDD,
+      "category": "Sizzlers",
+      "basePrice": 475
+    },
+    {
+      "image": "https://firebasestorage.googleapis.com/v0/b/briyaniapp-79bce.appspot.com/o/images%2Fit0lqp7z96o.jpg?alt=media&token=4182aef4-f2b5-4547-b70a-6ff37fdd0c6b.jpg",
+      "name": "Grilled Chicken Sizzler",
+      "description": DDD,
+      "category": "Sizzlers",
+      "basePrice": 455
+    },
+    {
+      "image": "https://firebasestorage.googleapis.com/v0/b/briyaniapp-79bce.appspot.com/o/images%2Fit0lqp7z96o.jpg?alt=media&token=4182aef4-f2b5-4547-b70a-6ff37fdd0c6b.jpg",
+      "name": "Chicken Wings B.B.Q. Sizzler",
+      "description": DDD,
+      "category": "Sizzlers",
+      "basePrice": 399
+    },
+    {
+      "image": "https://firebasestorage.googleapis.com/v0/b/briyaniapp-79bce.appspot.com/o/images%2Fit0lqp7z96o.jpg?alt=media&token=4182aef4-f2b5-4547-b70a-6ff37fdd0c6b.jpg",
+      "name": "Chinese Chicken Sizzler",
+      "description": DDD,
+      "category": "Sizzlers",
+      "basePrice": 465
+    },
+    {
+      "image": "https://firebasestorage.googleapis.com/v0/b/briyaniapp-79bce.appspot.com/o/images%2Fit0lqp7z96o.jpg?alt=media&token=4182aef4-f2b5-4547-b70a-6ff37fdd0c6b.jpg",
+      "name": "Crispy Chilly Potato Dry",
+      "description": "Deep Fry Potato Tasted in Chilly or Garlic",
+      "category": "From Wok Orientals Chinese",
+      "basePrice": 229
+    },
+    {
+      "image": "https://firebasestorage.googleapis.com/v0/b/briyaniapp-79bce.appspot.com/o/images%2Fit0lqp7z96o.jpg?alt=media&token=4182aef4-f2b5-4547-b70a-6ff37fdd0c6b.jpg",
+      "name": "Classic Honey Chilly Potato Dry",
+      "description": "Deep Fry Potato Tasted in Honey Chilly Sauce",
+      "category": "From Wok Orientals Chinese",
+      "basePrice": 239
+    },
+    {
+      "image": "https://firebasestorage.googleapis.com/v0/b/briyaniapp-79bce.appspot.com/o/images%2Fit0lqp7z96o.jpg?alt=media&token=4182aef4-f2b5-4547-b70a-6ff37fdd0c6b.jpg",
+      "name": "Crispy Chilly Mushroom Dry / Gravy",
+      "description": "Deep Fry Mushroom Tasted in Garlic or chilly",
+      "category": "From Wok Orientals Chinese",
+      "basePrice": 295
+    },
+    {
+      "image": "https://firebasestorage.googleapis.com/v0/b/briyaniapp-79bce.appspot.com/o/images%2Fit0lqp7z96o.jpg?alt=media&token=4182aef4-f2b5-4547-b70a-6ff37fdd0c6b.jpg",
+      "name": "Crispy Corn Salt & Paper",
+      "description": "Deep Fry Corn Tasted in Paper Sauce",
+      "category": "From Wok Orientals Chinese",
+      "basePrice": 239
+    },
+    {
+      "image": "https://firebasestorage.googleapis.com/v0/b/briyaniapp-79bce.appspot.com/o/images%2Fit0lqp7z96o.jpg?alt=media&token=4182aef4-f2b5-4547-b70a-6ff37fdd0c6b.jpg",
+      "name": "Crispy Veg Garlic Cheese sauce",
+      "description": "Better Fry mix Veg tasted in Garlic Cheese Sauce",
+      "category": "From Wok Orientals Chinese",
+      "basePrice": 275
+    },
+    {
+      "image": "https://firebasestorage.googleapis.com/v0/b/briyaniapp-79bce.appspot.com/o/images%2Fit0lqp7z96o.jpg?alt=media&token=4182aef4-f2b5-4547-b70a-6ff37fdd0c6b.jpg",
+      "name": "Paneer Hevy Monton Chilly Dry",
+      "description": "Deep Fry Paneer Hevy Monton Chilly",
+      "category": "From Wok Orientals Chinese",
+      "basePrice": 295
+    },
+    {
+      "image": "https://firebasestorage.googleapis.com/v0/b/briyaniapp-79bce.appspot.com/o/images%2Fit0lqp7z96o.jpg?alt=media&token=4182aef4-f2b5-4547-b70a-6ff37fdd0c6b.jpg",
+      "name": "Crispcy Paneer in oyster Chilly",
+      "description": "Deep Fry paneer Oyster or Deep Chilly",
+      "category": "From Wok Orientals Chinese",
+      "basePrice": 299
+    },
+    {
+      "image": "https://firebasestorage.googleapis.com/v0/b/briyaniapp-79bce.appspot.com/o/images%2Fit0lqp7z96o.jpg?alt=media&token=4182aef4-f2b5-4547-b70a-6ff37fdd0c6b.jpg",
+      "name": "Paneer Manchurian Dry / Gravy",
+      "description": "Deep Fry Paneer in Manchurian Sauce",
+      "category": "From Wok Orientals Chinese",
+      "basePrice": 285
+    },
+    {
+      "image": "https://firebasestorage.googleapis.com/v0/b/briyaniapp-79bce.appspot.com/o/images%2Fit0lqp7z96o.jpg?alt=media&token=4182aef4-f2b5-4547-b70a-6ff37fdd0c6b.jpg",
+      "name": "Paneer in Devil Sauce Dry / Gravy",
+      "description": "Deep Fry Paneer Spicy Devil Sauce",
+      "category": "From Wok Orientals Chinese",
+      "basePrice": 295
+    },
+    {
+      "image": "https://firebasestorage.googleapis.com/v0/b/briyaniapp-79bce.appspot.com/o/images%2Fit0lqp7z96o.jpg?alt=media&token=4182aef4-f2b5-4547-b70a-6ff37fdd0c6b.jpg",
+      "name": "Paneer In Schezwan Sauce",
+      "description": "Deep Fry Paneer Tasted in Spicy schezwan Sauce",
+      "category": "From Wok Orientals Chinese",
+      "basePrice": 295
+    },
+    {
+      "image": "https://firebasestorage.googleapis.com/v0/b/briyaniapp-79bce.appspot.com/o/images%2Fit0lqp7z96o.jpg?alt=media&token=4182aef4-f2b5-4547-b70a-6ff37fdd0c6b.jpg",
+      "name": "Paneer In Hunan Sauce",
+      "description": "Deep Fry Paneer Tasted In Hunan Sauce",
+      "category": "From Wok Orientals Chinese",
+      "basePrice": 349
+    },
+    {
+      "image": "https://firebasestorage.googleapis.com/v0/b/briyaniapp-79bce.appspot.com/o/images%2Fit0lqp7z96o.jpg?alt=media&token=4182aef4-f2b5-4547-b70a-6ff37fdd0c6b.jpg",
+      "name": "Paneer Chill Dry / Gravy",
+      "description": "Deep Fry paneer tasted in Chilly Basi Sauce",
+      "category": "From Wok Orientals Chinese",
+      "basePrice": 349
+    },
+    {
+      "image": "https://firebasestorage.googleapis.com/v0/b/briyaniapp-79bce.appspot.com/o/images%2Fit0lqp7z96o.jpg?alt=media&token=4182aef4-f2b5-4547-b70a-6ff37fdd0c6b.jpg",
+      "name": "Paneer In Black Pepper And Ginger",
+      "description": "Deep Fry Paneer Black Pepper & Ginger",
+      "category": "From Wok Orientals Chinese",
+      "basePrice": 339
+    },
+    {
+      "image": "https://firebasestorage.googleapis.com/v0/b/briyaniapp-79bce.appspot.com/o/images%2Fit0lqp7z96o.jpg?alt=media&token=4182aef4-f2b5-4547-b70a-6ff37fdd0c6b.jpg",
+      "name": "Vegetable Manchurian Dry / Gravy",
+      "description": "Deep Fry Paneer Black Pepper & Ginger",
+      "category": "From Wok Orientals Chinese",
+      "basePrice": 275
+    },
+     {
+      "image": "https://firebasestorage.googleapis.com/v0/b/briyaniapp-79bce.appspot.com/o/images%2Fit0lqp7z96o.jpg?alt=media&token=4182aef4-f2b5-4547-b70a-6ff37fdd0c6b.jpg",
+      "name": "Drums of Heaven (Chicken Lolypop) 6 pcs",
+      "description": "Deep Fry Lolypop toasted in Schezwan Sauce",
+      "category": "Oriental Chinesess Non-Veg",
+      "basePrice": 295
+    },
+     {
+      "image": "https://firebasestorage.googleapis.com/v0/b/briyaniapp-79bce.appspot.com/o/images%2Fit0lqp7z96o.jpg?alt=media&token=4182aef4-f2b5-4547-b70a-6ff37fdd0c6b.jpg",
+      "name": "Better Fry Chicken Basil Chilly",
+      "description": "Better Fry Chiken toasted in Basil Chilly Sauce",
+      "category": "Oriental Chinesess Non-Veg",
+      "basePrice": 375
+    },
+    {
+      "image": "https://firebasestorage.googleapis.com/v0/b/briyaniapp-79bce.appspot.com/o/images%2Fit0lqp7z96o.jpg?alt=media&token=4182aef4-f2b5-4547-b70a-6ff37fdd0c6b.jpg",
+      "name": "Chicken Honey Red Chilly Dry",
+      "description": "Better fry Chicken Honey Red Chilly Sauce",
+      "category": "Oriental Chinesess Non-Veg",
+      "basePrice": 375
+    },
+    {
+      "image": "https://firebasestorage.googleapis.com/v0/b/briyaniapp-79bce.appspot.com/o/images%2Fit0lqp7z96o.jpg?alt=media&token=4182aef4-f2b5-4547-b70a-6ff37fdd0c6b.jpg",
+      "name": "Chicken Manchurian Dry - Gravy",
+      "description": "Deep chicken manchurian sauce",
+      "category": "Oriental Chinesess Non-Veg",
+      "basePrice": 349
+    },
+    {
+      "image": "https://firebasestorage.googleapis.com/v0/b/briyaniapp-79bce.appspot.com/o/images%2Fit0lqp7z96o.jpg?alt=media&token=4182aef4-f2b5-4547-b70a-6ff37fdd0c6b.jpg",
+      "name": "Classic Chilly Chicken Dry / Gravy",
+      "description": "Better fry Chicken onion capsicum Tosst in Wok pan",
+      "category": "Oriental Chinesess Non-Veg",
+      "basePrice": 375
+    },
+    {
+      "image": "https://firebasestorage.googleapis.com/v0/b/briyaniapp-79bce.appspot.com/o/images%2Fit0lqp7z96o.jpg?alt=media&token=4182aef4-f2b5-4547-b70a-6ff37fdd0c6b.jpg",
+      "name": "Deep Fried Chicken In Hunan Sauce",
+      "description": "Better fry chicken toasted in Hunan Sauce",
+      "category": "Oriental Chinesess Non-Veg",
+      "basePrice": 385
+    },
+    {
+      "image": "https://firebasestorage.googleapis.com/v0/b/briyaniapp-79bce.appspot.com/o/images%2Fit0lqp7z96o.jpg?alt=media&token=4182aef4-f2b5-4547-b70a-6ff37fdd0c6b.jpg",
+      "name": "Deep fried chicken chilly oystar sauce",
+      "description": "Better fry chicken toasted in oystar or chilly sauce",
+      "category": "Oriental Chinesess Non-Veg",
+      "basePrice": 385
+    },
+    {
+      "image": "https://firebasestorage.googleapis.com/v0/b/briyaniapp-79bce.appspot.com/o/images%2Fit0lqp7z96o.jpg?alt=media&token=4182aef4-f2b5-4547-b70a-6ff37fdd0c6b.jpg",
+      "name": "Chicken Black Pepper Gingar Dry / Gravy",
+      "description": "Better fry chicken Black Paper Green paper or Ginger",
+      "category": "Oriental Chinesess Non-Veg",
+      "basePrice": 375
+    },
+    {
+      "image": "https://firebasestorage.googleapis.com/v0/b/briyaniapp-79bce.appspot.com/o/images%2Fit0lqp7z96o.jpg?alt=media&token=4182aef4-f2b5-4547-b70a-6ff37fdd0c6b.jpg",
+      "name": "Lemon Paper Chicken Dry / Gravy",
+      "description": "Deep Fry chicken lemon or paper sauce",
+      "category": "Oriental Chinesess Non-Veg",
+      "basePrice": 375
+    },
+    {
+      "image": "https://firebasestorage.googleapis.com/v0/b/briyaniapp-79bce.appspot.com/o/images%2Fit0lqp7z96o.jpg?alt=media&token=4182aef4-f2b5-4547-b70a-6ff37fdd0c6b.jpg",
+      "name": "Chicken In Schezwan Sauce Dry / Gravy",
+      "description": "Deep fry chicken or spicy schzawan sauce",
+      "category": "Oriental Chinesess Non-Veg",
+      "basePrice": 385
+    },
+     {
+      "image": "https://firebasestorage.googleapis.com/v0/b/briyaniapp-79bce.appspot.com/o/images%2Fit0lqp7z96o.jpg?alt=media&token=4182aef4-f2b5-4547-b70a-6ff37fdd0c6b.jpg",
+      "name": "Butter Garlic Prawns",
+      "description": "Butter Garlic Sauted Prawns",
+      "category": "Oriental Chinesess Sea Food",
+      "basePrice": 429
+    },
+     {
+      "image": "https://firebasestorage.googleapis.com/v0/b/briyaniapp-79bce.appspot.com/o/images%2Fit0lqp7z96o.jpg?alt=media&token=4182aef4-f2b5-4547-b70a-6ff37fdd0c6b.jpg",
+      "name": "Chilly Garlic Prawns",
+      "description": "Deep Prawns Garlic Chilly Sauce",
+      "category": "Oriental Chinesess Sea Food",
+      "basePrice": 425
+    },
+    {
+      "image": "https://firebasestorage.googleapis.com/v0/b/briyaniapp-79bce.appspot.com/o/images%2Fit0lqp7z96o.jpg?alt=media&token=4182aef4-f2b5-4547-b70a-6ff37fdd0c6b.jpg",
+      "name": "Prawns In Schezwan Sauce",
+      "description": "Deep Fry Prawns or Schezwan Sauce Spicy",
+      "category": "Oriental Chinesess Sea Food",
+      "basePrice": 429
+    },
+    {
+      "image": "https://firebasestorage.googleapis.com/v0/b/briyaniapp-79bce.appspot.com/o/images%2Fit0lqp7z96o.jpg?alt=media&token=4182aef4-f2b5-4547-b70a-6ff37fdd0c6b.jpg",
+      "name": "Prawns Plum Chilly Sauce",
+      "description": "Deep Fry From Tasted in Chilly Garlic Sauce",
+      "category": "Oriental Chinesess Sea Food",
+      "basePrice": 429
+    },
+    {
+      "image": "https://firebasestorage.googleapis.com/v0/b/briyaniapp-79bce.appspot.com/o/images%2Fit0lqp7z96o.jpg?alt=media&token=4182aef4-f2b5-4547-b70a-6ff37fdd0c6b.jpg",
+      "name": "Basa Fish Manchurin Dry / Gravy",
+      "description": "Better Fry Fish or Manchurian Sauce",
+      "category": "Oriental Chinesess Sea Food",
+      "basePrice": 395
+    },
+    {
+      "image": "https://firebasestorage.googleapis.com/v0/b/briyaniapp-79bce.appspot.com/o/images%2Fit0lqp7z96o.jpg?alt=media&token=4182aef4-f2b5-4547-b70a-6ff37fdd0c6b.jpg",
+      "name": "Basa Fish Bland Chilly",
+      "description": "Deep Fry Fish Onion Green Paper Chilly Spicy",
+      "category": "Oriental Chinesess Sea Food",
+      "basePrice": 395
+    },
+     {
+      "image": "https://firebasestorage.googleapis.com/v0/b/briyaniapp-79bce.appspot.com/o/images%2Fit0lqp7z96o.jpg?alt=media&token=4182aef4-f2b5-4547-b70a-6ff37fdd0c6b.jpg",
+      "name": "Vegetable fried rice",
+      "description": DDD,
+      "category": "Fried Rice Veg",
+      "basePrice": 229
+    },
+     {
+      "image": "https://firebasestorage.googleapis.com/v0/b/briyaniapp-79bce.appspot.com/o/images%2Fit0lqp7z96o.jpg?alt=media&token=4182aef4-f2b5-4547-b70a-6ff37fdd0c6b.jpg",
+      "name": "Vegetable Chilly Garlic Fried Rice",
+      "description": DDD,
+      "category": "Fried Rice Veg",
+      "basePrice": 195
+    },
+    {
+      "image": "https://firebasestorage.googleapis.com/v0/b/briyaniapp-79bce.appspot.com/o/images%2Fit0lqp7z96o.jpg?alt=media&token=4182aef4-f2b5-4547-b70a-6ff37fdd0c6b.jpg",
+      "name": "Vegetable Schezwan Fried Rice",
+      "description": DDD,
+      "category": "Fried Rice Veg",
+      "basePrice": 195
+    },
+    {
+      "image": "https://firebasestorage.googleapis.com/v0/b/briyaniapp-79bce.appspot.com/o/images%2Fit0lqp7z96o.jpg?alt=media&token=4182aef4-f2b5-4547-b70a-6ff37fdd0c6b.jpg",
+      "name": "Vegetable Peking Rice",
+      "description": DDD,
+      "category": "Fried Rice Veg",
+      "basePrice": 195
+    },
+    {
+      "image": "https://firebasestorage.googleapis.com/v0/b/briyaniapp-79bce.appspot.com/o/images%2Fit0lqp7z96o.jpg?alt=media&token=4182aef4-f2b5-4547-b70a-6ff37fdd0c6b.jpg",
+      "name": "Chilly Basil Fried Rice",
+      "description": DDD,
+      "category": "Fried Rice Veg",
+      "basePrice": 195
+    },
+    {
+      "image": "https://firebasestorage.googleapis.com/v0/b/briyaniapp-79bce.appspot.com/o/images%2Fit0lqp7z96o.jpg?alt=media&token=4182aef4-f2b5-4547-b70a-6ff37fdd0c6b.jpg",
+      "name": "Vegetable Triple Schezwan Fried Rice",
+      "description": DDD,
+      "category": "Fried Rice Veg",
+      "basePrice": 195
+    },
+     {
+      "image": "https://firebasestorage.googleapis.com/v0/b/briyaniapp-79bce.appspot.com/o/images%2Fit0lqp7z96o.jpg?alt=media&token=4182aef4-f2b5-4547-b70a-6ff37fdd0c6b.jpg",
+      "name": "Chicken fried Rice",
+      "description": DDD,
+      "category": "Fried Rice Non-Veg",
+      "basePrice": 229
+    },
+     {
+      "image": "https://firebasestorage.googleapis.com/v0/b/briyaniapp-79bce.appspot.com/o/images%2Fit0lqp7z96o.jpg?alt=media&token=4182aef4-f2b5-4547-b70a-6ff37fdd0c6b.jpg",
+      "name": "Chicken Schazwan Fried Rice",
+      "description": DDD,
+      "category": "Fried Rice Non-Veg",
+      "basePrice": 245
+    },
+    {
+      "image": "https://firebasestorage.googleapis.com/v0/b/briyaniapp-79bce.appspot.com/o/images%2Fit0lqp7z96o.jpg?alt=media&token=4182aef4-f2b5-4547-b70a-6ff37fdd0c6b.jpg",
+      "name": "Chicken Chilly Garlic Fried Rice",
+      "description": DDD,
+      "category": "Fried Rice Non-Veg",
+      "basePrice": 245
+    },
+    {
+      "image": "https://firebasestorage.googleapis.com/v0/b/briyaniapp-79bce.appspot.com/o/images%2Fit0lqp7z96o.jpg?alt=media&token=4182aef4-f2b5-4547-b70a-6ff37fdd0c6b.jpg",
+      "name": "Chicken Trapal Schezwan Fried Rice",
+      "description": DDD,
+      "category": "Fried Rice Non-Veg",
+      "basePrice": 275
+    },
+    {
+      "image": "https://firebasestorage.googleapis.com/v0/b/briyaniapp-79bce.appspot.com/o/images%2Fit0lqp7z96o.jpg?alt=media&token=4182aef4-f2b5-4547-b70a-6ff37fdd0c6b.jpg",
+      "name": "Butter Garlic Fried Rice",
+      "description": DDD,
+      "category": "Fried Rice Non-Veg",
+      "basePrice": 275
+    },
+    {
+      "image": "https://firebasestorage.googleapis.com/v0/b/briyaniapp-79bce.appspot.com/o/images%2Fit0lqp7z96o.jpg?alt=media&token=4182aef4-f2b5-4547-b70a-6ff37fdd0c6b.jpg",
+      "name": "Chicken Peking Rice",
+      "description": DDD,
+      "category": "Fried Rice Non-Veg",
+  

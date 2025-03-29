@@ -1,0 +1,239 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+section.hero {
+    @apply block md:grid;
+    grid-template-columns: .4fr .6fr;
+}
+
+select,
+
+input[type="email"],
+input[type="password"],
+input[type="tel"],
+input[type="text"] {
+    @apply block w-full mb-2 rounded-md;
+    @apply border-0 border-b-2 p-2 border-b-primary/50 bg-gray-100 max-h-10 transition-all delay-75 duration-300 ease-linear;
+
+    &:focus {
+        @apply outline-none border-b-2 focus:border-b-primary;
+    }
+
+    /* Apply styles on hover */
+    &:hover {
+        @apply bg-gray-200 border-b-2 border-b-primary;
+    }
+}
+
+@layer utilities {
+    input[type="radio"] {
+        @apply appearance-none w-4 h-4 border border-secondry rounded-md checked:bg-primary checked:border-transparent;
+    }
+}
+
+@layer utilities {
+    input[type="checkbox"] {
+        @apply appearance-none w-4 h-4 border border-secondry rounded-md checked:bg-primary checked:border-transparent;
+    }
+}
+
+
+
+input[type="email"]:disabled,
+input[type="password"]:disabled,
+input[type="tel"]:disabled,
+input[type="text"]:disabled {
+    @apply bg-gray-300 border-0 border-b-2 cursor-not-allowed text-gray-500;
+}
+
+label {
+    @apply text-gray-500 text-sm leading-tight;
+}
+
+label+input {
+    margin-top: -2px;
+}
+
+button,
+.button {
+    @apply flex w-full justify-center gap-2 text-gray-700 font-semibold;
+    @apply border border-gray-300 rounded-xl px-6 py-2;
+}
+
+button[type="submit"],
+.submit,
+button.primary {
+    @apply border-primary bg-primary text-white;
+}
+
+button[type="submit"]:disabled,
+.submit:disabled {
+    @apply cursor-not-allowed bg-secondry;
+}
+
+div.tabs>* {
+    @apply bg-gray-300 text-gray-700 rounded-full py-2 px-4;
+}
+
+div.tabs>*.active {
+    @apply bg-primary text-white;
+}
+
+.flying-button-parent button {
+    @apply border-primary bg-primary text-white rounded-full;
+}
+
+body {
+    background-color: aliceblue;
+}
+
+/* Hero.module.css */
+/* Hero.module.css */
+
+.custom-rotate {
+    animation: rotate 10s linear infinite;
+    /* Adjust the duration (10s) for the desired speed */
+}
+
+@keyframes rotate {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg);
+        /* Rotate the entire image in a circular manner */
+    }
+}
+
+.circularMask {
+    background: radial-gradient(circle at center, transparent 50%, black 100%);
+    border-radius: 50%;
+    height: 100%;
+    width: 100%;
+}
+
+
+/* Add these styles to your CSS or use inline styles in your components */
+
+.cart {
+    position: fixed;
+    top: 0;
+    right: -300px;
+    /* Initially off-screen to the right */
+
+    height: 100%;
+    background-color: white;
+    overflow-y: auto;
+    /* Add this line to enable vertical scrollbar */
+    transition: transform 0.3s ease;
+    /* Add a transition for smooth sliding */
+}
+
+.cart.open {
+    right: 0;
+    /* Move to the screen when the "open" class is present */
+}
+
+
+/* Add this to your global styles or FeedbackForm component styles */
+
+.feedback-form-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    /* Semi-transparent black background */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+    /* Ensure it's on top of other elements */
+}
+
+.feedback-form {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+.button-container {
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.bgCont {
+    background-image: url('../../public/banner.jpg');
+    /* Add any other background styles you need */
+    background-size: cover;
+    background-position: center;
+
+}
+
+/* Your existing styles... */
+
+
+.custom-scrollbar::-webkit-scrollbar {
+
+    width: 6px;
+    /* Set the width of the scrollbar */
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb {
+    background-color: #6d1717d3;
+    /* Set the color of the thumb */
+    border-radius: 10px;
+    /* Round the thumb */
+    transition: background-color 0.3s ease;
+    /* Add a transition for smooth color change */
+}
+
+.custom-scrollbar::-webkit-scrollbar-track {
+    background-color: transparent;
+}
+
+
+/* Handle hover effect if desired */
+.custom-scrollbar::-webkit-scrollbar-thumb:hover {
+
+    background-color: #6d1717;
+}
+
+
+/* tailwind.css or styles.css */
+@layer utilities {
+    .shadow-custom {
+        box-shadow: 0px 1px 12px -3px rgba(0, 0, 0, 0.63);
+    }
+}
+
+
+
+
+
+
+/* Smooth scrolling */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Custom animations */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-fadeIn {
+  animation: fadeIn 0.6s ease-out forwards;
+}
