@@ -1,36 +1,93 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Project Title
 
-## Getting Started
+Dining Venue Web Application
 
-First, run the development server:
+## Description
+
+This project is a web application designed for a dining venue, allowing users to explore menus, place orders, and manage their profiles. The application is built using Next.js and Tailwind CSS, providing a responsive and modern user interface.
+
+## Accessing the Repository
+
+To access this private repository, you must be added as a contributor by the repository owner. Once you have been granted access, follow these steps:
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/yourusername/dining-venue-web.git
+   cd dining-venue-web
+   ```
+
+2. Install dependencies:
+   ```bash
+   npm install
+   ```
+
+3. Create a `.env` file based on the `.env.example` file and fill in the required environment variables.
+
+## Project Structure Overview
+
+- **src/**: Contains the main application code.
+  - **app/**: Contains the application routes and pages.
+  - **api/**: Contains the (Backend) API routes for handling requests.
+  - **components/**: Contains reusable UI components.
+  - **libs/**: Contains utility functions and libraries used across the application.
+  - **models/**: Contains data models for MongoDB collections.
+
+## Routing
+
+The application uses Next.js routing, where each file in the `src/app` directory corresponds to a route. For example, `src/app/about-us/page.js` maps to the `/about-us` route.
+
+## Authentication
+
+Authentication is handled using Firebase. The application uses Firebase Authentication to manage user sign-up, sign-in, and session management. The authentication logic is implemented in the `src/app/api/auth/[...nextauth]` route.
+
+## Features
+
+- User authentication and profile management
+- Menu browsing and item details
+- Cart functionality for placing orders
+- Feedback submission
+- Responsive design for mobile and desktop
+
+## Technologies Used
+
+- Next.js
+- React
+- Tailwind CSS
+- Node.js
+- Express.js
+- MongoDB (for data storage)
+- Firebase (for authentication)
+
+## Installation
+
+To run this project locally, follow these steps:
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/yourusername/dining-venue-web.git
+   cd dining-venue-web
+   ```
+
+2. Install dependencies:
+   ```bash
+   npm install
+   ```
+
+3. Create a `.env` file based on the `.env.example` file and fill in the required environment variables.
+
+## Usage
+
+To start the development server, run the following command:
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open your browser and navigate to `http://localhost:3000` to view the application.
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+## Commands
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+- `npm run dev`: Starts the development server.
+- `npm run build`: Builds the application for production.
+- `npm run start`: Starts the production server.
 
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
