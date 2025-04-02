@@ -118,7 +118,7 @@ export default function RootLayout({ children }) {
                       <p className="text-center">Near Basahia buzurg, Basahia Buzurg, Partawal <br /> Uttar Pradesh 273301</p>
 
                       <div className="mt-2 shadow-xl">
-                        <iframe className="rounded-lg shadow-lg" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3556.130498282406!2d83.58233867489676!3d26.962766457938766!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x399155d45a79ad6f%3A0xed67bbdbee59101!2sDINING%20Venue%20%2C%20Multicuisine%20Restaurant%20%26%20cafe!5e0!3m2!1sen!2sin!4v1742642635196!5m2!1sen!2sin" width="400" height="300" style={{ "border": "0" }} allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                        <iframe className="rounded-lg shadow-lg" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3556.130498282406!2d83.58233867489676!3d26.962766457938766!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x399155d45a79ad6f%3A0xed67bbdbee59101!2sDINING%20Venue%20%2C%20Multicuisine%20Restaurant%20%26%20cafe!5e0!3m2!1sen!2sin!4v1742642635196!5m2!1sen!2sin" width="400" height="300" style={{ "border": "0" }} allowfullscreen="" loading="lazy" referrerPolicy="no-referrer-when-downgrade"></iframe>
 
                       </div>
                       {/* Phone number */}

@@ -3,6 +3,7 @@ import SectionHeaders from "@/components/layout/SectionHeaders";
 import UserTabs from "@/components/layout/UserTabs";
 import { useProfile } from "@/components/UseProfile";
 import { dbTimeForHuman } from "@/libs/datetime";
+import { showStatus } from "@/libs/ordersUtils";
 import Link from "next/link";
 import { useEffect, useState } from "react";
 
@@ -47,7 +48,8 @@ export default function OrdersPage() {
               </div>
               <div className="grow">
                 <div className="flex gap-2 items-center mb-1">
-                  <div className="grow">{order.userEmail}</div>
+                  {isAdmin() ? (<div className="grow">{showStatus(order.status)}</div>) : (<div className="grow">{showStatus(order.status)}</div>)}
+
                   <div className="text-gray-500 text-sm">{dbTimeForHuman(order.createdAt)}</div>
                 </div>
                 <div className="text-gray-500 text-xs">

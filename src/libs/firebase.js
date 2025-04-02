@@ -3,14 +3,16 @@ import { getAuth } from 'firebase/auth';
 
 
 const firebaseConfig = {
-    apiKey: "AIzaSyBL0gwDZBDlAo0cBzj886IvySkSyJ6ij-4",
-    authDomain: "diningvenue-ebce1.firebaseapp.com",
-    projectId: "diningvenue-ebce1",
-    storageBucket: "diningvenue-ebce1.firebasestorage.app",
-    messagingSenderId: "208317989241",
-    appId: "1:208317989241:web:cd273ffbdd3f8076c42fa8",
-    measurementId: "G-Q12DX6R2FX"
+    apiKey: process.env.NEXT_PUBLIC_FIREBASE_API_KEY,
+    authDomain: process.env.NEXT_PUBLIC_FIREBASE_AUTH_DOMAIN,
+    projectId: process.env.NEXT_PUBLIC_FIREBASE_PROJECT_ID,
+    storageBucket: process.env.NEXT_PUBLIC_FIREBASE_STORAGE_BUCKET,
+    messagingSenderId: process.env.NEXT_PUBLIC_FIREBASE_MESSAGING_SENDER_ID,
+    appId: process.env.NEXT_PUBLIC_FIREBASE_APP_ID,
+    measurementId: process.env.NEXT_PUBLIC_FIREBASE_MEASUREMENT_ID
 };
+
+
 
 const app = initializeApp(firebaseConfig);
 const auth = getAuth(app);
