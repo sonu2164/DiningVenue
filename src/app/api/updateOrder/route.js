@@ -1,7 +1,7 @@
 import { getServerSession, isAdmin } from "next-auth";
 import mongoose from 'mongoose';
-import { Order } from '@models/Order';
-import { MenuItem } from '@models/MenuItem';
+import { Order } from '@/models/Order';
+import { MenuItem } from '@/models/MenuItem';
 import { authOptions } from "@/app/api/auth/[...nextauth]/route";
 
 export async function POST(req, res) {
