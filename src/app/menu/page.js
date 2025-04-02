@@ -61,7 +61,7 @@ export default function MenuPage() {
   return (
     <>
       {loading && <Loader />}
-      {openLoginPopup && <LoginPage2 />}
+      {/* {openLoginPopup && <LoginPage2 />} */}
       <Hero />
       <div className=" sm:px-2 md:px-5 xl:px-20">
         <MenuFilter
