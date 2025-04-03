@@ -45,9 +45,10 @@ function LayoutContent({ children }) {
             <section className="text-center text-white text-xl bg-primary h-50   md:block  inset-0" id="contact">
               <div className="flex flex-col md:flex-row p-4 justify-center ">
                 <div className="w-full md:w-1/3  text-center flex flex-col justify-center items-center border-b  xl:border-b-0 py-5">
-                  <div className="rounded-full bg-white">
-                    <Image src="/logo.png" alt="thebiryaniadda" height={200} width={200} />
+                  <div className="bg-white rounded-full flex justify-center items-center w-36 h-36">
+                    <Image src="/logo.png" alt="thebiryaniadda" height={150} width={150} />
                   </div>
+
                   <div className="flex  flex-col gap-2 justify-center items-center">
                     <div className="mb-2 md:mb-0">Follow us on</div>
                     <div className="flex flex-row gap-2">
