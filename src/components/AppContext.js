@@ -26,9 +26,29 @@ export function AppProvider({ children }) {
   const [openLoginPopup, setOpenLoginPopup] = useState(false);
   const [deliveryOption, setDeliveryOption] = useState('dine-in');
   const [paymentMethod, setPaymentMethod] = useState('qrcode');
-  const { data: session } = useSession();
+
+  const [isAdmin, setIsAdmin] = useState(false);
+  const { data: session, status } = useSession()
+
+  console.log("111", session)
+
 
   const ls = typeof window !== "undefined" ? window.localStorage : null;
+  useEffect(() => {
+    if (status === "loading") {
+      console.log("loading...");
+      return;
+    }
+
+    if (status === "authenticated") {
+      setIsAdmin(session?.user?.admin || false); // Ensure a boolean value
+    }
+
+    console.log("ddd", session, status);
+    console.log("admin", isAdmin);
+  }, [session, status]);
+
+
 
   useEffect(() => {
     const fetchCartItems = async (email) => {
@@ -42,6 +62,7 @@ export function AppProvider({ children }) {
         return [];
       }
     };
+
 
     const updateCartItems = async (email, itemsToUpdate) => {
       try {
@@ -58,6 +79,8 @@ export function AppProvider({ children }) {
         console.error("Error updating cart items on server:", error);
       }
     };
+
+
 
     const mergeCartItems = (localStorageItems, dbItems) => {
       const mergedItems = [...localStorageItems];
@@ -191,7 +214,8 @@ export function AppProvider({ children }) {
         paymentMethod,
         setPaymentMethod,
         setDeliveryOption,
-        deliveryOption
+        deliveryOption,
+        isAdmin
       }}
     >
       {children}

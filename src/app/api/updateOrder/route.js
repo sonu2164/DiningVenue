@@ -1,41 +1,36 @@
-import { getServerSession, isAdmin } from "next-auth";
+import { getServerSession } from "next-auth";
 import mongoose from 'mongoose';
 import { Order } from '@/models/Order';
-import { MenuItem } from '@/models/MenuItem';
-import { authOptions } from "@/app/api/auth/[...nextauth]/route";
+import { authOptions, isAdmin } from "@/app/api/auth/[...nextauth]/route";
 
-export async function POST(req, res) {
+export async function PUT(req) {
+    try {
+        const { orderId, status } = await req.json();
 
-
-    const { orderId, new_status } = await req.json();
-
-    mongoose.connect(process.env.MONGO_URL);
-
-
-    // const session = await getServerSession(authOptions);
-    //   const userEmail = session?.user?.email;
-    const admin = isAdmin();
-
-    if (admin) {
-        const order = await Order.findById(orderId);
-        if (order) {
-            order.status = new_status;
-            await order.save();
-            Response.json({ message: "Order status updated successfully" });
-        } else {
-            Response.json({ message: "Order not found" });
+        // Ensure database connection
+        if (mongoose.connection.readyState === 0) {
+            await mongoose.connect(process.env.MONGO_URL);
         }
 
+        // ✅ Await isAdmin() since it's an async function
+        const admin = await isAdmin();
+        if (!admin) {
+            return Response.json({ error: 'Unauthorized' }, { status: 401 });
+        }
 
+        // ✅ Find and update order
+        const order = await Order.findById(orderId);
+        if (!order) {
+            return Response.json({ message: "Order not found" }, { status: 404 });
+        }
+
+        order.status = status;
+        await order.save();
+
+        return Response.json({ message: "Order status updated successfully" });
+
+    } catch (error) {
+        console.error("Error updating order:", error);
+        return Response.json({ error: "Internal Server Error" }, { status: 500 });
     }
-    else {
-        return Response.status(401).json({ error: 'Unauthorized' });
-    }
-
-
-
-
-
-
-
 }

@@ -72,8 +72,8 @@ export default function CartPage() {
 
     <div className="flex flex-col justify-center">
       <SectionHeaders mainHeader="Cart" />
-
-
+      <div className='flex w-full border-b border-primary'></div>
+      {/* 
       <div className="flex flex-row text-black bg-slate-200 rounded-full ">
 
         <button
@@ -96,7 +96,7 @@ export default function CartPage() {
         >
           Delivery
         </button>
-      </div>
+      </div> */}
 
       {/* <CustomScrollbar> */}
 

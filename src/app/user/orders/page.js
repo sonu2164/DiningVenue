@@ -4,13 +4,29 @@ import UserTabs from "@/components/layout/UserTabs";
 import { useProfile } from "@/components/UseProfile";
 import { dbTimeForHuman } from "@/libs/datetime";
 import { showStatus } from "@/libs/ordersUtils";
+import { useSession } from "next-auth/react";
 import Link from "next/link";
-import { useEffect, useState } from "react";
+import { useContext, useEffect, useState } from "react";
+import { CartContext } from "@/components/AppContext";
+
+const orderStatuses = [
+  "order_placed",
+  "accepted",
+  "preparing",
+  "out_for_delivery",
+  "delivered",
+  "canceled",
+  "failed",
+];
+
 
 export default function OrdersPage() {
   const [orders, setOrders] = useState([]);
   const [loadingOrders, setLoadingOrders] = useState(true);
-  const { loading, data: profile } = useProfile();
+  const { isAdmin } = useContext(CartContext);
+
+
+
 
   useEffect(() => {
     fetchOrders();
@@ -25,6 +41,27 @@ export default function OrdersPage() {
       })
     })
   }
+
+
+  function handleStatusChange(orderId, newStatus) {
+    fetch(`/api/updateOrder`, {
+      method: "PUT",
+      headers: {
+        "Content-Type": "application/json",
+      },
+      body: JSON.stringify({ orderId, status: newStatus }),
+    })
+      .then((res) => res.json())
+      .then((updatedOrder) => {
+        setOrders((prevOrders) =>
+          prevOrders.map((order) =>
+            order._id === orderId ? { ...order, status: newStatus } : order
+          )
+        );
+      })
+      .catch((error) => console.error("Error updating status:", error));
+  }
+
 
   return (
     <section className="mt-8 max-w-2xl mx-auto">
@@ -48,7 +85,21 @@ export default function OrdersPage() {
               </div>
               <div className="grow">
                 <div className="flex gap-2 items-center mb-1">
-                  {isAdmin() ? (<div className="grow">{showStatus(order.status)}</div>) : (<div className="grow">{showStatus(order.status)}</div>)}
+                  {isAdmin ? (<div className="grow">
+                    <select
+                      value={order.status}
+                      onChange={(e) => handleStatusChange(order._id, e.target.value)}
+                      className="bg-primary border border-primary text-white text-sm rounded-lg focus:ring-primary focus:border-primary focus:bg-primary hover:bg-primary dark:bg-primary block w-full p-2.5 appearance-none"
+                    >
+                      {orderStatuses.map((status) => (
+                        <option key={status} value={status} className="bg-primary text-white">
+                          {status.replace("_", " ").toUpperCase()}
+                        </option>
+                      ))}
+                    </select>
+                  </div>) : (<div className="grow">
+                    {showStatus(order.status)}
+                  </div>)}
 
                   <div className="text-gray-500 text-sm">{dbTimeForHuman(order.createdAt)}</div>
                 </div>

@@ -190,7 +190,7 @@ import { signOut, useSession } from "next-auth/react";
 import Image from "next/image";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
-import { useEffect, useState } from "react";
+import { useContext, useEffect, useState } from "react";
 import { useRef } from "react";
 
 import Loader from '@/components/Loader'
@@ -202,6 +202,8 @@ import { FaBeer, FaBars, FaUser } from 'react-icons/fa';
 import { Roboto } from 'next/font/google'
 import LoginPage2 from '../../components/Loginpage2';
 import { TbNumber1Small } from "react-icons/tb";
+import { useProfile } from "@/components/UseProfile";
+import { CartContext } from "@/components/AppContext";
 
 
 
@@ -212,7 +214,7 @@ const roboto = Roboto({ subsets: ['latin'], weight: ['400', '500', '700'] })
 const NavigationItem = ({ icon, text, to }) => {
     const IconComponent = icon;
     const pathname = usePathname();
-    console.log(pathname);
+    // console.log(pathname);
     const isActive = pathname.startsWith(`/user/${to}`)
 
 
@@ -236,26 +238,26 @@ const NavigationItem = ({ icon, text, to }) => {
 
 export default function UserLayout({ children }) {
     const session = useSession();
+    // const profile = useProfile()
     const menuRef = useRef(null);
+    // console.log(profile);
 
-    const [user, setUser] = useState(null);
-    const [isAdmin, setIsAdmin] = useState(false);
-    const [profileFetched, setProfileFetched] = useState(false);
-    const { status } = session;
+
+
+
+    // const [user, setUser] = useState(null);
+    const { isAdmin } = useContext(CartContext)
+    // const [profileFetched, setProfileFetched] = useState(false);
+    const { data, status } = session;
     const [showMenu, setShowMenu] = useState(false);
 
-    useEffect(() => {
-        if (status === 'authenticated') {
-            fetch('/api/profile').then(response => {
-                response.json().then(data => {
-                    setUser(data);
+    // useEffect(() => {
+    //     if (status === 'authenticated') {
 
-                    setIsAdmin(data.admin);
-                    setProfileFetched(true);
-                })
-            });
-        }
-    }, [session, status]);
+    //         // setUser(data.user);
+    //         setProfileFetched(true);
+    //     }
+    // }, [session, status]);
 
     useEffect(() => {
         const handleOutsideClick = (event) => {

@@ -18,6 +18,7 @@ const OrderSchema = new Schema({
     enum: ['order_placed', 'accepted', 'preparing', 'out_for_delivery', 'delivered', 'canceled', 'failed'],
     default: 'order_placed'
   },
+
 }, { timestamps: true });
 
 export const Order = models?.Order || model('Order', OrderSchema);

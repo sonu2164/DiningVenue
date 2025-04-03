@@ -13,12 +13,12 @@ import toast from "react-hot-toast";
 import Loader from '@/components/Loader'
 
 export default function ProfilePage() {
-    const session = useSession();
+    const { data: session, status } = useSession();
 
     const [user, setUser] = useState(null);
-    const [isAdmin, setIsAdmin] = useState(false);
+    // const [isAdmin, setIsAdmin] = useState(false);
     const [profileFetched, setProfileFetched] = useState(false);
-    const { status } = session;
+
 
     useEffect(() => {
         if (status === 'authenticated') {
@@ -26,7 +26,7 @@ export default function ProfilePage() {
                 response.json().then(data => {
                     setUser(data);
 
-                    setIsAdmin(data.admin);
+                    // setIsAdmin(data.admin);
                     setProfileFetched(true);
                 })
             });
