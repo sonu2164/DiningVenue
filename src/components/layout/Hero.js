@@ -66,9 +66,9 @@ export default function Hero() {
         <div className="hidden xl:block absolute z-10 bottom-[140px] left-[140px]   bg-opacity-70 p-5 rounded-lg">
 
           <p className="mt-4 text-xl italic text-gray-300">
-            "Cooking is an art,<br />
+            &ldquo; Cooking is an art,<br />
             and every dish is a masterpiece.<br />
-            Let us serve you the best."
+            Let us serve you the best.&rdquo;
           </p>
 
         </div>
