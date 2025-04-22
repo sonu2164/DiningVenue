@@ -20,10 +20,8 @@ const categories = [
     { name: "Lemonades", icon: <FaLemon /> },
     { name: "Spicy Food", icon: <FaPepperHot /> },
     { name: "Organic", icon: <FaSeedling /> },
-    { name: "Wines", icon: <FaWineBottle /> },
-    { name: "Cocktails", icon: <FaCocktail /> },
     { name: "Hot Beverages", icon: <FaMugHot /> },
-    { name: "Whiskey", icon: <FaGlassWhiskey /> }
+
 ];
 
 export default function MenuFilter({ selectedCategory, setSelectedCategory, isVegOnly, setIsVegOnly }) {
